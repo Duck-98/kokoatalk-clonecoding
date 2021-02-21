@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "recet.css";
+@import "variables.css";
+/*component*/
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+/*screen*/
+@import "screens/login.css";
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
