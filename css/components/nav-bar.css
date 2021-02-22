@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .nav{
     position: fixed;
@@ -43,3 +44,13 @@
     bottom: 29px;
 
 }
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 30px;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  color: bisque;
+}
+
