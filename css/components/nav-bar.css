@@ -7,8 +7,6 @@
     padding: 20px 50px;
     box-sizing: border-box;
     border-top:1px solid rgba(121, 121, 121, 0.3) ;
-    
-
 }
 .nav__list {
     display: flex;
@@ -37,11 +35,9 @@
     width: 8px;
     height: 8px;
     border-radius: 15px;
-    display: flex;
     position: absolute;
     left : 30px;
     bottom: 29px;
-
 }
 .nav {
   background-color: #f9f9fa;

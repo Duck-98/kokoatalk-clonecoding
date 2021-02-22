@@ -1,12 +1,9 @@
+  
 .status-bar {
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box; /*명령한 padding과 width를 유지하기 위한 코드. */
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    
-}
+  }
 .status-bar__column {
     width: 33%;
 }
