@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/kokoatalk-clonecoding/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,44 @@
         </div>
     </header>   
     <a id="friends-display-link"><i class="fas fa-info-circle"></i>Friends 'Names Display<i class="fas fa-chevron-right fa-xs"></i></a>
-   
+    <main class="friends-screen">
+       <div class="user-component">
+            <div class="user-component__column">
+                <img src="/screenshots/duck.JPG" 
+                class="user-component__avartar user-component__avartar--xl" />
+                <div class="user-component_text">
+                 <h4 class="user-component__title">나덕경</h4>
+                 <!--<h6 class="user-component__subtitle">안녕하세요.</h6>--> 
+                </div>
+               </div>
+            <div class="user-component__column">
+               
+            </div>
+       </div>
+       <div class="friends-screen__channel">
+           <div class="friends-screen__channel-header">
+           <span>Channel</span>
+           <i class="fas fa-chevron-up fa-xs"></i>
+           </div>
+           <div class="user-component">
+            <!--채널 이미지,이름-->
+            <div class="user-component__column">
+                <img src="/screenshots/channel.jpeg" 
+                class="user-component__avartar user-component__avartar--sm" />
+                <div class="user-component_text">
+                 <h4 class="user-component__title user-component_title--not-bold">Channel</h4>
+                </div>
+               </div>
+            <!--2와 체브론-->
+               <div class="user-component__column">
+                <span>2</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+           </div>
+               
+            </div>
+       </div>
+       </div>
+    </main>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
